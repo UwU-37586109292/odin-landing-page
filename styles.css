@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.hero.main.text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero.secondary.text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta,
+button {
+    background-color: #3882f6;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
