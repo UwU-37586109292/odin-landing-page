@@ -6,23 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Landing page</title>
 </head>
 
 <body>
     <div class="header">
-        <img src="./images/logo.png">
-        <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Need help?</a></li>
+        <!-- <img src="./images/logo.png" class="logo"> -->
+        <div class="text"><b>Header Logo</b></div>
+        <ul class="header-links">
+            <li><a href="#" class="secondary-text">header link one</a></li>
+            <li><a href="#" class="secondary-text">header link two</a></li>
+            <li><a href="#" class="secondary-text">header link three</a></li>
         </ul>
     </div>
     <div class="content">
-        <div>This website is awesome block</div>
-        <div>Some random information block</div>
-        <div>Inspiring quote block</div>
-        <div>Call to action block</div>
+        <div class="container text">
+            <div class="container-vertical">
+                <h2>This website is awesome</h2>
+                <p class="secondary-text">This website has some subtext that goes here under the main title. It's a
+                    smaller font and the
+                    color is lower contrast</p>
+                <button class="secondary-text">Sign up</button>
+            </div>
+            <div class="image">this is placeholder image</div>
+        </div>
+        <div class="container secondary-text">Some random information block</div>
+        <div class="container secondary-text">Inspiring quote block</div>
+        <div class="container secondary-text">Call to action block</div>
     </div>
     <div class="footer">
         Copyright - The Odin Project 2021
