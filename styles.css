@@ -97,3 +97,10 @@ button {
     font-size: 36px;
     font-style: italic;
 }
+
+.img-frame {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #3882f6;
+    height: 100px;
+}
